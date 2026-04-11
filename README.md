@@ -100,6 +100,8 @@
 ## <img src="https://github.com/Art3mLapa/unofficial-stalcraft-api/blob/main/assets/kontora_mrazei.png" width="50" height="50"> <img src="https://github.com/Art3mLapa/unofficial-stalcraft-api/blob/main/assets/get_logo.png" width="50" height="50"> http://launcher.stalcraft.net/auth
 Ссылка для авторизации пользователя EXBO в лаунчере. Используется в лаунчере в четырёх вариациях.
 Так-же у ссылки есть вариант домена для EU игроков лаунчера: http://launcher-global.stalcraft.net/
+
+Более правильная и подробная информация есть в [этом](https://github.com/Nyrokume/Exbo-security) проекте
 ### 1. Авторизация по логину/паролю
 Вызывается при обычном вводе логина и пароля в лаунчере. Нужен для получения хеша пароля
 
@@ -874,6 +876,12 @@ JSON таблица предметов для фарма репутации ар
     ]
 }
 ```
+
+# <img src="https://github.com/Art3mLapa/unofficial-stalcraft-api/blob/main/assets/dev_bless.png" width="5%" height="5%"> Based on UAPI
+- https://github.com/FakeAngles/Stalcraft-Server-Blocker - Сбежать с MSK2 возможно
+- https://github.com/Nyrokume/Exbo-security - Интерактивная веб-страница с исследованием системы верификации владельцев аккаунтов EXBO (Stalcraft)
+- https://github.com/Art3mLapa/stalcraftx.status - Сайт с отображением онлайна на РУ серверах STALCRAFT:X и отображением пинга игровых серверов
+- https://github.com/Art3mLapa/Krevetka-ts - re-writted and automatic Krevetka on TypeScript 
 
 ## <img src="https://github.com/Art3mLapa/unofficial-stalcraft-api/blob/main/assets/icon_logo.png" width="50" height="50"> Благодарность
 
