@@ -813,6 +813,33 @@ CDN сервер для системы EXENS
 - `session=bqХaКphE03183568...` - Backend сессия игры
 - `distributor=EXBO` - Дистрибьютор
 
+## <img src="https://github.com/Art3mLapa/unofficial-stalcraft-api/blob/main/assets/get_logo.png" width="50" height="50"> /characters/namegen
+Бекенд-ссылка, которая после каждого запроса генерирует рандомные никнеймы (на базе рандомайзера?) на базе написанного текста в окне создания персонажа.
+
+Пример ответа:
+```
+{
+  "names": [
+    "ArtemLapaMechen",
+    "ArtemLapaGames",
+    "ArtemLapa_Winner",
+    "ArtemLapaTop",
+    "IvanovArtemLapa"
+  ]
+}
+```
+
+Имеет параметры:
+- `login=ArtemLapa` - логин пользователя
+- `session=bxOgSr...` - backend-сессия
+- `distributor=EXBO` - дистрибьютор
+- `count=5` - кол-во имён (лимит - 20)
+- `script=both` - алгоритм генерации?
+- `word=ArtemLapa` - введённый текст
+
+Пример рабочей ссылки:
+- `https://backend.stalzone.net/characters/namegen?login=art3mlapa&session=bxOgSrHHhRs5Wg8RHg45HH%252Frxexga2h6CT028A1ziCZGysac%252GWEO9HUGWG8429T474524LALYqJPEt%252Fzo%252FXco%252FFWOoNv0hJ%252FJxiHQcbc5gCZzlW62wMQCx1GOmwszLF5IyKGJiv6WUSdVd0auu%252FQ3uQbJeI80W2dbdMoxYWMASOFIHOF*w(V81V1VEIOWEFHIS38ow4anEGhw7KKQWmnrLac9OQTUBD%252FQWnDHvcejEf34E7nLi0vSeQAz7XD3ww%253D&distributor=EXBO&count=5&script=both&word=ArtemLapa`
+
 # <img src="https://github.com/Art3mLapa/unofficial-stalcraft-api/blob/main/assets/zerkalo_api.png" width="50" height="50"> "Зеркала" официального API игры
 На данный момент, EXBO всё меньше поддерживают EAPI, из-за чего появляется проблема с доступом и получению ключа авторизации. Для решения проблемы вы можете использовать домены сайтов, авторизованных ранее в EAPI.
 
