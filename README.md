@@ -1,4 +1,4 @@
-![U.SC.A](https://github.com/Art3mLapa/unofficial-stalcraft-api/blob/main/assets/banner_logo_new.svg)
+![U.SC.A](/assets/banner_logo_new.svg)
 # <img src="https://github.com/Art3mLapa/unofficial-stalcraft-api/blob/main/assets/icon_logo.png" width="5%" height="5%"> Unofficial Stalcraft API
 Документация внутреннего HTTP/HTTPS API лаунчера и игры.
 
